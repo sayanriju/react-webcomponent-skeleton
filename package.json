@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel serve index.html",
+    "prebuild": "rimraf dist/",
     "build": "parcel build index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +16,7 @@
     "react-dom": "^16.14.0"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.425"
+    "parcel": "^2.0.0-nightly.425",
+    "rimraf": "^3.0.2"
   }
 }
