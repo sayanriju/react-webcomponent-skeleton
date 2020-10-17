@@ -69,3 +69,5 @@ tempCodeRunnerFile.javascript
 
 dist/*
 .cache
+.parcel-cache
+*.map

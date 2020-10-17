@@ -2,10 +2,10 @@
   "name": "react-webcomponent-skeleton",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.js --global react_webcomponent_skeleton --experimental-scope-hoisting",
+    "start": "parcel serve index.html",
+    "build": "parcel build index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,9 +16,6 @@
     "react-dom": "^16.14.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.0.0-beta.1"
   }
 }
